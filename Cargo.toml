@@ -1,0 +1,20 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/regulus-hal",
+    "crates/regulus-engine",
+    "crates/regulus-backend-windows",
+    "crates/regulus-app",
+]
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0"
+license = "GPL-3.0-or-later"
+
+[profile.release]
+lto = true
+opt-level = 3
+panic = "abort"
+strip = true
+codegen-units = 1

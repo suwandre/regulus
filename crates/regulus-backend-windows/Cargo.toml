@@ -1,0 +1,8 @@
+[package]
+name = "regulus-backend-windows"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+regulus-hal = { path = "../regulus-hal" }

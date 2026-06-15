@@ -1,0 +1,10 @@
+[package]
+name = "regulus-app"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+regulus-hal = { path = "../regulus-hal" }
+regulus-engine = { path = "../regulus-engine" }
+regulus-backend-windows = { path = "../regulus-backend-windows" }
