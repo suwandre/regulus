@@ -2,3 +2,5 @@
 //! polling, and reapply orchestration over the HAL.
 
 pub mod budget;
+pub mod profile;
+pub mod store;
